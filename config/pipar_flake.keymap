@@ -18,6 +18,15 @@
         triggers-per-rotation = <24>;
     };
 
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -29,7 +38,7 @@
 
             display-name = "default";
             bindings = <
-&kp TAB         &kp LEFT_WIN    &to 1
+&kp F5          &kp LEFT_WIN    &to 1
 &kp BACKSPACE   &kp UP_ARROW    &kp ENTER
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;

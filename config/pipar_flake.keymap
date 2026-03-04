@@ -45,7 +45,7 @@
 
             display-name = "function";
             bindings = <
-&kp F5          &kp PG_UP    &to 2
+&kt F5          &kp PG_UP    &to 2
 &kp LEFT_SHIFT  &mt LCTRL V  &msc MOVE_Y(5)
 &kp LCTRL       &mt LCTRL V  &msc MOVE_Y(-5)
             >;
